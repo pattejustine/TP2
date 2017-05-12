@@ -1,16 +1,17 @@
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background-image: url(d8f3192f544fc69ddec0a5fa52df850b.jpg);
 }
 
 #header
 {
-	background: #ccc;
+	background-color:antiquewhite;
 	padding: 20px;
+    
 }
 
-#header h1 { margin: 0; }
+#header h1 { margin: 0; color:cadetblue}
 
 #navigation
 {
@@ -23,6 +24,7 @@
 {
 	margin: 0;
 	padding: 0;
+    
 }
 
 #navigation ul li
@@ -39,6 +41,7 @@
 	color: #fff;
 	text-decoration: none;
 	border-right: 1px solid #fff;
+    color:cadetblue;
 }
 
 #navigation li a:hover { background: #383; }
@@ -52,12 +55,14 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
+	background-image: -webkit-gradient(linear, left top, right top, from(#faebd7), to(#e1d3c1));
+	background-image: -webkit-linear-gradient(left,#faebd7,#e1d3c1);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
+	opacity: 0.85;
+    color:cadetblue;
+    
 }
 
 #edito h2
@@ -65,6 +70,7 @@
 	color: #000;
 	font-size: 160%;
 	margin: 0 0 .5em;
+    color:cadetblue;
 }
 
 #news
@@ -77,12 +83,14 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
+background-image: -webkit-gradient(linear, left top, right top, from(#faebd7), to(#e1d3c1));
+	background-image: -webkit-linear-gradient(left,#faebd7,#e1d3c1);
 	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	opacity: 0.83;
+	opacity: 0.85;
+    color:cadetblue;
+    
 }
 
 #footer
@@ -92,4 +100,6 @@
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+    background-color: rgba(0,0,0,0.5);
+    color:cadetblue;
 }
